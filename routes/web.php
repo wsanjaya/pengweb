@@ -6,5 +6,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/about', function () {
-    return 'Halaman About Berhasil';
+    return view('about');
+});
+Route::get('/kelas', function () {
+    return view('kelas');
 });
